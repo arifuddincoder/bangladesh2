@@ -149,3 +149,76 @@ nav h3 {
     margin: 20px 0 12px 0;
 }
 /** end pillar of BD section css **/
+/** start vision of future section css **/
+.vision-of-future > p{
+    margin: 24px 0 32px;
+}
+.vision-of-future_challenges{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.vision-of-future_challenges_item{
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.vision-of-future_challenges_item:nth-of-type(1){
+    background-color: rgba(84, 144, 245, .2);
+}
+.vision-of-future_challenges_item:nth-of-type(2){
+    background-color: var(--secondary-color);
+}
+.vision-of-future_challenges_item:nth-of-type(3){
+    background-color: #f7ebcf;
+}
+.vision-of-future_challenges_item h3{
+    margin: 24px 0 12px;
+    font-size: 20px;
+}
+.vision-of-future_challenges_item p{
+    color: rgba(14, 14, 14, .7);
+    margin-bottom: 24px;
+}
+.vision-of-future_challenges_item button{
+    border-radius: 8px;
+    color: var(--white-color);
+    border: 0;
+    padding: 11px 20px;
+    margin-top: auto;
+}
+.vision-of-future_challenges_item:nth-of-type(1) button{
+    background-color: #5490F5;
+}
+.vision-of-future_challenges_item:nth-of-type(2) button{
+    background-color: #09A15c;
+}
+.vision-of-future_challenges_item:nth-of-type(3) button{
+    background-color: #ffc239;
+}
+
+.vision-of-future blockquote{
+    background-color: var(--white-color);
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 23px;
+}
+.vision-of-future blockquote > p{
+    color: rgba(14, 14, 14, .8);
+}
+.vision-of-future blockquote footer h5{
+font-weight: 600;
+font-size: 20px;
+margin-top: 12px;
+margin-bottom: 4px;
+}
+.vision-of-future blockquote footer p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, .6);
+}
+/** end vision of future section css **/
