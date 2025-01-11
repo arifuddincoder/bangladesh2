@@ -150,6 +150,7 @@ nav h3 {
     background-color: var(--white-color);
     border-radius: 16px;
     padding: 24px;
+    flex: 1;
 }
 
 .pillars-of-bd_content_item h3 {
