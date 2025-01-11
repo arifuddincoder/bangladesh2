@@ -28,10 +28,12 @@ h2,
 h3 {
     font-weight: 700;
 }
-h2{
+
+h2 {
     font-size: 40px;
     line-height: 1.3;
 }
+
 .font-fira-sans {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -130,77 +132,92 @@ nav h3 {
 /** end header css **/
 
 /** start pillar of BD section css **/
-.pillars-of-bd{
+.pillars-of-bd {
     margin-bottom: 80px;
 }
-.pillars-of-bd_content{
+
+.pillars-of-bd_content {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-top: 32px;
 }
-.pillars-of-bd_content_item{
+
+.pillars-of-bd_content_item {
     background-color: var(--white-color);
     border-radius: 16px;
     padding: 24px;
 }
-.pillars-of-bd_content_item h3{
+
+.pillars-of-bd_content_item h3 {
     font-size: 20px;
     margin: 20px 0 12px 0;
 }
+
 /** end pillar of BD section css **/
 /** start vision of future section css **/
-.vision-of-future > p{
+.vision-of-future>p {
     margin: 24px 0 32px;
 }
-.vision-of-future_challenges{
+
+.vision-of-future_challenges {
     margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.vision-of-future_challenges_item{
+
+.vision-of-future_challenges_item {
     padding: 32px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.vision-of-future_challenges_item:nth-of-type(1){
+
+.vision-of-future_challenges_item:nth-of-type(1) {
     background-color: rgba(84, 144, 245, .2);
 }
-.vision-of-future_challenges_item:nth-of-type(2){
+
+.vision-of-future_challenges_item:nth-of-type(2) {
     background-color: var(--secondary-color);
 }
-.vision-of-future_challenges_item:nth-of-type(3){
+
+.vision-of-future_challenges_item:nth-of-type(3) {
     background-color: #f7ebcf;
 }
-.vision-of-future_challenges_item h3{
+
+.vision-of-future_challenges_item h3 {
     margin: 24px 0 12px;
     font-size: 20px;
 }
-.vision-of-future_challenges_item p{
+
+.vision-of-future_challenges_item p {
     color: rgba(14, 14, 14, .7);
     margin-bottom: 24px;
 }
-.vision-of-future_challenges_item button{
+
+.vision-of-future_challenges_item button {
     border-radius: 8px;
     color: var(--white-color);
     border: 0;
     padding: 11px 20px;
     margin-top: auto;
 }
-.vision-of-future_challenges_item:nth-of-type(1) button{
+
+.vision-of-future_challenges_item:nth-of-type(1) button {
     background-color: #5490F5;
 }
-.vision-of-future_challenges_item:nth-of-type(2) button{
+
+.vision-of-future_challenges_item:nth-of-type(2) button {
     background-color: #09A15c;
 }
-.vision-of-future_challenges_item:nth-of-type(3) button{
+
+.vision-of-future_challenges_item:nth-of-type(3) button {
     background-color: #ffc239;
 }
 
-.vision-of-future blockquote{
+.vision-of-future blockquote {
     background-color: var(--white-color);
     border-radius: 16px;
     padding: 48px 24px;
@@ -208,17 +225,82 @@ nav h3 {
     background-repeat: no-repeat;
     background-position: 24px 23px;
 }
-.vision-of-future blockquote > p{
+
+.vision-of-future blockquote>p {
     color: rgba(14, 14, 14, .8);
 }
-.vision-of-future blockquote footer h5{
-font-weight: 600;
-font-size: 20px;
-margin-top: 12px;
-margin-bottom: 4px;
+
+.vision-of-future blockquote footer h5 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
 }
-.vision-of-future blockquote footer p{
+
+.vision-of-future blockquote footer p {
     font-size: 16px;
     color: rgba(14, 14, 14, .6);
 }
+
 /** end vision of future section css **/
+
+/** start Your Opinion Matters section css **/
+.your-opinion-matters {
+    padding: 80px 0;
+}
+
+.your-opinion-matters h2 {
+    margin-bottom: 24px;
+}
+
+.your-opinion-matters_content {
+    background-color: var(--white-color);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.your-opinion-matters_content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.your-opinion-matters_content th,
+.your-opinion-matters_content td {
+    border: 1px solid#c0c0c0;
+    padding: 24px;
+}
+
+.your-opinion-matters_content th {
+    background-color: #c8e6c9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.your-opinion-matters_content table th:first-child {
+    text-align: left;
+}
+
+.your-opinion-matters_content td {
+    border: 1px solid #ddd;
+}
+
+.your-opinion-matters_content table td:nth-child(2) {
+    text-align: center;
+}
+
+.your-opinion-matters_content select {
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background-color: rgba(9, 161, 92, .15);
+    padding: 12.5px 52.5px 12.5px 16.5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('assets/select-arrow.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10.5px) center;
+    font-weight: 600;
+}
+
+/** end Your Opinion Matters section css **/
