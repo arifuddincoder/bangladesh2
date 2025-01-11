@@ -75,6 +75,9 @@ button {
     color: var(--white-color);
 }
 
+main{
+  padding-bottom: 80px;  
+}
 /** end common css **/
 
 /** start header css **/
@@ -428,3 +431,27 @@ background-color: var(--secondary-color);
     cursor: pointer;
 }
 /** end subscribe newsletter section css **/
+
+/** start footer section css **/
+.footer-area{
+    background-color: var(--white-color);
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-area hr{
+    display: block;
+    height: 1px;
+    background-color: rgba(14, 14, 14, .1);
+    border: 0;
+    margin: 32px 75px;
+}
+.footer-area h3{
+    font-size: 32px;
+}
+.footer-social{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+/** end footer section css **/
