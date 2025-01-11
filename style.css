@@ -306,10 +306,11 @@ nav h3 {
 /** end Your Opinion Matters section css **/
 
 /** start recent news section css **/
-.recent-news p{
+.recent-news p {
     margin: 24px 0 32px;
 }
-.recent-news_article{
+
+.recent-news_article {
     display: flex;
     gap: 32px;
     padding: 48px;
@@ -317,25 +318,72 @@ nav h3 {
     border-radius: 24px;
     margin-bottom: 24px;
 }
-.recent-news_article:last-of-type{
-    margin-bottom: 0;  
+
+.recent-news_article:last-of-type {
+    margin-bottom: 0;
 }
-.recent-news_article > img{
+
+.recent-news_article>img {
     border-radius: 24px;
 }
-.recent-news_article_body h3{
+
+.recent-news_article_body h3 {
     font-size: 32px;
     color: rgba(14, 14, 14, .8);
     margin-bottom: 12px;
 }
-.recent-news_article_body_date-time{
-margin-bottom: 12px;
-color: rgba(14, 14, 14, .7);
+
+.recent-news_article_body_date-time {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, .7);
 }
-.recent-news_article_body p{
-    color: rgba(14, 14, 14, .7);  
+
+.recent-news_article_body p {
+    color: rgba(14, 14, 14, .7);
 }
-.recent-news_article_body .btn-primary{
+
+.recent-news_article_body .btn-primary {
     padding: 13px 26px;
 }
-/** start recent news section css **/
+
+/** end recent news section css **/
+
+/** start donate today section css **/
+.donate-today {
+    padding: 80px 88px;
+    text-align: center;
+}
+
+.donate-today > p {
+    padding: 24px 0 32px;
+}
+
+.donation-options {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.donation-button{
+padding: 40px;
+font-size: 40px;
+border-radius: 16px;
+background-color: var(--white-color);
+border:1px solid rgba(14,   14, 14, .15);
+}
+.donation-button:hover,.donation-button.active{
+border-color: #aac4b8;
+background-color: var(--secondary-color);
+
+}
+.donate-today input[type="number"]{
+    width: 93%;
+    border:1px solid rgba(14,   14, 14, .15);
+    padding: 20px;
+    text-align: center;
+    font-size: 20PX;
+    margin: 32px 0;
+}
+.donate-today input[type="number"]::placeholder{
+    color: rgba(14, 14, 14, .13);
+}
+/** end donate today section css **/
