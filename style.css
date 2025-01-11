@@ -304,3 +304,38 @@ nav h3 {
 }
 
 /** end Your Opinion Matters section css **/
+
+/** start recent news section css **/
+.recent-news p{
+    margin: 24px 0 32px;
+}
+.recent-news_article{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: var(--white-color);
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.recent-news_article:last-of-type{
+    margin-bottom: 0;  
+}
+.recent-news_article > img{
+    border-radius: 24px;
+}
+.recent-news_article_body h3{
+    font-size: 32px;
+    color: rgba(14, 14, 14, .8);
+    margin-bottom: 12px;
+}
+.recent-news_article_body_date-time{
+margin-bottom: 12px;
+color: rgba(14, 14, 14, .7);
+}
+.recent-news_article_body p{
+    color: rgba(14, 14, 14, .7);  
+}
+.recent-news_article_body .btn-primary{
+    padding: 13px 26px;
+}
+/** start recent news section css **/
