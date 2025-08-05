@@ -1,0 +1,162 @@
+@media (max-width: 1320px) {
+  body {
+    padding: 0 15px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pillars-of-bd_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 980px) {
+  .banner-area {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-of-future_challenges {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .recent-news_article {
+    flex-direction: column;
+    padding: 35px;
+  }
+
+  .banner-area_content h1 {
+    font-size: 32px;
+  }
+
+  .recent-news_article:nth-child(even) .recent-news_article_body {
+    order: 2;
+  }
+
+  .recent-news_article:nth-child(even) img {
+    order: 1;
+  }
+
+  .donation-options {
+    flex-wrap: wrap;
+  }
+
+  .donation-button {
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .donate-today {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .subscribe-newsletter {
+    padding: 45px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+  }
+
+  .responsive-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    flex: 1;
+    padding-right: 10px;
+    color: #333;
+  }
+
+  .responsive-table td:last-child {
+    border-bottom: none;
+  }
+
+  .responsive-table select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #eefef5;
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .pillars-of-bd_content {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-newsletter form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe-newsletter form input[type="text"] {
+    border-radius: 6px;
+  }
+
+  .subscribe-newsletter form input[type="submit"] {
+    border-radius: 6px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .your-opinion-matters_content th {
+    font-size: 15px;
+  }
+
+  .banner-area {
+    padding: 40px;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .donate-today input[type="number"] {
+    width: 70%;
+  }
+
+  .recent-news_article {
+    padding: 20px;
+  }
+
+  .recent-news_article_body h3 {
+    font-size: 20px;
+  }
+}
